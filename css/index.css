@@ -498,7 +498,7 @@ blockquote p {
 }
 @media (min-width: 34em) {
   .page {
-    width: 82.5%;
+    width: 82%;
     float: right;
     margin-right: 0;
   }
@@ -534,8 +534,8 @@ blockquote p {
 }
 .author-avatar img {
   width: 100%;
-  max-width: 110px;
-  border-radius: 50%;
+  max-width: 165px;
+  border: none;
 }
 .author-discrip {
   display: table-cell;
@@ -548,7 +548,15 @@ blockquote p {
   margin: 0px;
   font-size: 1.8rem;
 }
-.author-discrip .author-bio {
+.author-discrip .author-pos {
+  font-size: 1.2rem;
+  margin: 0.3rem 0;
+}
+.author-discrip .author-uni {
+  font-size: 1.2rem;
+  margin: 0.3rem 0;
+}
+.author-discrip .author-dep {
   font-size: 1.2rem;
   margin: 0.3rem 0;
 }
@@ -704,7 +712,7 @@ blockquote p {
 }
 @media (min-width: 34em) {
   .side-card {
-    width: 15.25424%;
+    width: 16.3%;
     min-width: 165px;
     float: left;
     margin-right: 1.69492%;
@@ -732,7 +740,6 @@ blockquote p {
   }
   .author-avatar img {
     padding: 5px;
-    border: 1px solid #f2f3f3;
   }
   .author-discrip {
     display: block;
@@ -741,9 +748,15 @@ blockquote p {
     padding-right: 0;
     color: #000;
   }
-  .author-discrip .author-bio {
+  .author-discrip .author-pos {
     font-size: 1.4rem;
     margin-top: 8px;
+  }
+  .author-discrip .author-uni {
+    font-size: 1.4rem;
+  }
+  .author-discrip .author-dep {
+    font-size: 1.4rem;
     margin-bottom: 10px;
   }
   .author-links {
